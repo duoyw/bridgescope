@@ -53,7 +53,7 @@ mcp4db/server/
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone git@github.com:duoyw/bridgescope.git
 cd bridgescope
 ```
 
@@ -79,12 +79,12 @@ mkdir -p /path/to/your/backup_data
 
 # Download data files from the specified location (replace with actual data file URL)
 # For example: download from Google Drive, Baidu Netdisk, or other storage
-wget -O /path/to/your/backup_data/backup_db.tar.gz "your_data_file_url"
+wget -O /path/to/your/backup_data/backup_db.zip "https://github.com/duoyw/bridgescope/releases/download/db/backup_db.zip"
 # Or manually download and extract to the specified directory
 
 # Extract data files
 cd /path/to/your/backup_data
-tar -xzf backup_db.tar.gz
+unzip backup_db.zip
 ```
 
 #### 3.4 Configure Restore Script Path
