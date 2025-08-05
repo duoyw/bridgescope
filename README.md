@@ -72,6 +72,7 @@ which psql
 
 #### 3.2 Ensure the existence of the postgres user and database
 
+
 #### 3.3 Download Data Files
 ```bash
 # Create data directory
