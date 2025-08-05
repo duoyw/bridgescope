@@ -1,33 +1,42 @@
 # BridgeScope: A Universal Toolkit for Bridging Large Language Models and Databases
 
-This is the open-source code implementation for the paper "BridgeScope: A Universal Toolkit for Bridging Large Language Models and Databases".
-This project provides a database toolkit based on the Model Context Protocol (MCP), enhancing database operation security and efficiency through fine-grained access control and proxy mechanisms.
+This is the open-source code implementation for the paper "BridgeScope: A Universal Toolkit for Bridging Large Language Models and Databases". 
+
+BridgeScope is a universal toolkit that bridges LLMs and databases towards greater usability, efficiency, and security guarantees. It aims to help general-purpose LLM agents handling data-related tasks more effectively and efficiently. See details in [BridgeScope server](servers/bridgescope/readme.md). This repo provides an implementation of BridgeScope for PostgreSQL based on the Model Context Protocol (MCP), and all necessary data and codes to reproduce the experimental results in the paper.
 
 ## 📋 Table of Contents
 
-- [Project Overview](#project-overview)
-- [Requirements](#requirements)
-- [Environment Setup](#environment-setup)
-- [Data Preparation](#data-preparation)
-- [Run the Code](#run-the-code)
-- [Evaluation Scripts](#evaluation-scripts)
-- [Project Structure](#project-structure)
-- [Contribution Guide](#contribution-guide)
-- [License](#license)
+- [Overview of BridgeScope](#-overview-of-bridgescope)
+- [Project Structure](#-project-structure)
+- [Requirements](#-requirements)
+- [Environment Setup](#-environment-setup)
+- [Run the Code](#-run-the-code)
+- [Contact](#-contact)
+- [Acknowledgements](#-acknowledgements)
 
-## 🎯 Project Overview
+## 🎯 Overview of BridgeScope
 
-This project implements a database operation framework based on the MCP protocol, with the following main features:
+As large language models (LLMs) demonstrate increasingly powerful reasoning and orchestration capabilities, LLM-based agents are rapidly proliferating for complex data-related tasks. Despite this progress, the current design of how LLMs interact with databases exhibits critical limitations in usability, security, privilege management, and data transmission efficiency. 
+BridgeScope incorporates three core innovations to address these challenges:
 
-- **Fine-grained Access Control**: Supports permission management for different user types
-- **Proxy Mechanism**: Improves operation efficiency via proxy
-- **Multiple Operation Support**: Supports SQL operations such as SELECT, INSERT, UPDATE, DELETE
-- **Evaluation Framework**: Provides a complete evaluation and testing framework
+
+#### **1. Fine-Grained Tooling.**
+Modularizes SQL operations into fine-grained tools for **context retrieval**, **CRUD execution**, and **ACID-compliant transaction management**, enabling more precise and LLM-friendly control over database functionalities.
+
+#### **2. Multi-level Security Guarantees**
+
+Customizes tool implementations based on both **database-side user privileges** and **user-side security policies**. Both prompts the LLM planning within authorized and secure operational boundaries and employs rule-based verifications to strictly block unauthorized access and risky operations. 
+
+#### **3. Direct Data Routing**
+
+Introduces proxy-based mechanisms that enables seamless inter-tool data transmission, eliminating LLM transmission bottlenecks. See [MCP-Proxy-Execute](servers/ProxyServer/README.md) for details.
+
+Evaluations on two novel benchmarks demonstrate that BridgeScope enables LLM agents to operate databases more effectively, reduces token usage by up to 80% through improved security awareness, and uniquely supports data-intensive workflows beyond existing toolkits.
 
 ## 📁 Project Structure
 
 ```
-mcp4db/server/
+bridgescope/
 ├── scripts/                 # Database scripts
 │   ├── backup_postgres.sh   # Database backup script
 │   └── restore_postgres.sh  # Database restore script
@@ -72,16 +81,13 @@ which psql
 
 #### 3.2 Ensure the existence of the postgres user and database
 
-
 #### 3.3 Download Data Files
 ```bash
 # Create data directory
 mkdir -p /path/to/your/backup_data
 
-# Download data files from the specified location (replace with actual data file URL)
-# For example: download from Google Drive, Baidu Netdisk, or other storage
+# Download database data files
 wget -O /path/to/your/backup_data/backup_db.zip "https://github.com/duoyw/bridgescope/releases/download/db/backup_db.zip"
-# Or manually download and extract to the specified directory
 
 # Extract data files
 cd /path/to/your/backup_data
@@ -208,4 +214,4 @@ Thanks to all researchers and developers who contributed to this project.
 
 ---
 
-**Note**: Please make sure the database connection and API keys are properly configured before use. It is recommended to verify in a test environment first. 
+**Note**: Please make sure the database connection and API keys are properly configured before use. It is recommended to verify in a test environment first.
