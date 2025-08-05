@@ -1,0 +1,27 @@
+[
+  {
+    "config_name": "qwen-max",
+    "model_type": "dashscope_chat",
+    "model_name": "qwen-max",
+    "api_key": "sk-0JVspnhOLC"
+  },
+  {
+    "config_name": "gpt-4o",
+    "model_type": "openai_chat",
+    "model_name": "chatgpt-4o-latest",
+    "api_key": "sk-8284e3aa9c7d45e49c8accacee4eed38",
+    "client_args": {
+      "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1"
+    }
+  },
+  {
+    "config_name": "claude-3-7",
+    "model_type": "openai_chat",
+    "model_name": "claude-3-7-sonnet-20250219",
+    "api_key": "sk-8284e3aa9c7d45e49c8accacee4eed38",
+    "client_args": {
+      "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1"
+    }
+  }
+]
+

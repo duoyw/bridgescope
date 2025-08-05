@@ -1,0 +1,55 @@
+{
+    "fine_gran_tool_with_priv_desc": {
+      "mcpServers": {
+        "mcp4db": {
+          "command": "/home/ldd461759/code/mcp_db/env/bin/python",
+          "args": [
+            "/nas/ldd461759/code/mcp_db/MCP4DB/servers/bridgescope/server.py",
+            "--dsn",
+            "<<db_dsn>>"
+          ]
+        }
+      }
+    },
+    "fine_gran_tool_without_tool_priv_desc": {
+      "mcpServers": {
+        "mcp4db": {
+          "command": "/home/ldd461759/code/mcp_db/env/bin/python",
+          "args": [
+            "/nas/ldd461759/code/mcp_db/MCP-DB-Universal/server.py",
+            "--disable_tool_priv",
+            "--dsn",
+            "<<db_dsn>>"
+          ]
+        }
+      }
+    },
+    "single_exec_tool_with_priv_desc": {
+      "mcpServers": {
+        "mcp4db": {
+          "command": "/home/ldd461759/code/mcp_db/env/bin/python",
+          "args": [
+            "/nas/ldd461759/code/mcp_db/MCP-DB-Universal/server.py",
+            "--disable_fine_gran_tool",
+            "--dsn",
+            "<<db_dsn>>"
+          ]
+        }
+      }
+    },
+    "single_exec_tool_without_priv_desc": {
+      "mcpServers": {
+        "mcp4db": {
+          "command": "/home/ldd461759/code/mcp_db/env/bin/python",
+          "args": [
+            "/nas/ldd461759/code/mcp_db/MCP-DB-Universal/server.py",
+            "--disable_fine_gran_tool",
+            "--disable_tool_priv",
+            "--dsn",
+            "<<db_dsn>>"
+          ]
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,119 @@
+{
+    "california_schools_ext": {
+        "superuser": [
+            [
+                "county_education_summary",
+                "frpm",
+                "satscores",
+                "school_full_profile",
+                "school_metadata",
+                "school_performance_summary",
+                "school_socioeconomic_profile",
+                "schools"
+            ],
+            [
+                "SELECT",
+                "UPDATE",
+                "INSERT",
+                "DELETE"
+            ]
+        ],
+        "readonly_user": [
+            [
+                "county_education_summary",
+                "frpm",
+                "satscores",
+                "school_full_profile",
+                "school_metadata",
+                "school_performance_summary",
+                "school_socioeconomic_profile",
+                "schools"
+            ],
+            [
+                "SELECT"
+            ]
+        ],
+        "user_1": [
+            [
+                "school_performance_summary"
+            ],
+            [
+                "SELECT",
+                "UPDATE",
+                "INSERT",
+                "DELETE"
+            ]
+        ],
+        "user_2": [
+            [
+                "county_education_summary",
+                "frpm"
+            ],
+            [
+                "SELECT",
+                "UPDATE",
+                "INSERT",
+                "DELETE"
+            ]
+        ],
+        "user_3": [
+            [
+                "school_full_profile"
+            ],
+            [
+                "SELECT",
+                "UPDATE",
+                "INSERT",
+                "DELETE"
+            ]
+        ],
+        "user_4": [
+            [
+                "school_performance_summary",
+                "school_socioeconomic_profile"
+            ],
+            [
+                "SELECT",
+                "UPDATE",
+                "INSERT",
+                "DELETE"
+            ]
+        ],
+        "user_5": [
+            [
+                "school_metadata",
+                "school_performance_summary"
+            ],
+            [
+                "SELECT",
+                "UPDATE",
+                "INSERT",
+                "DELETE"
+            ]
+        ],
+        "user_6": [
+            [
+                "school_metadata"
+            ],
+            [
+                "SELECT",
+                "UPDATE",
+                "INSERT",
+                "DELETE"
+            ]
+        ],
+        "user_7": [
+            [
+                "school_metadata",
+                "school_performance_summary",
+                "school_socioeconomic_profile"
+            ],
+            [
+                "SELECT",
+                "UPDATE",
+                "INSERT",
+                "DELETE"
+            ]
+        ]
+    }
+}

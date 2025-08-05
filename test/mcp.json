@@ -1,0 +1,132 @@
+{
+  "fine_gran_tool_with_priv_desc": {
+    "mcpServers": {
+      "mcp4db": {
+        "command": "python",
+        "args": [
+          "../servers/bridgescope/server.py",
+          "--dsn",
+          "<<db_dsn>>"
+        ]
+      }
+    }
+  },
+  "fine_gran_tool_without_tool_priv_desc": {
+    "mcpServers": {
+      "mcp4db": {
+        "command": "python",
+        "args": [
+          "../servers/bridgescope/server.py",
+          "--disable_tool_priv",
+          "--dsn",
+          "<<db_dsn>>"
+        ]
+      }
+    }
+  },
+  "single_exec_tool_with_priv_desc": {
+    "mcpServers": {
+      "mcp4db": {
+        "command": "python",
+        "args": [
+          "../servers/bridgescope/server.py",
+          "--disable_fine_gran_tool",
+          "--dsn",
+          "<<db_dsn>>"
+        ]
+      }
+    }
+  },
+  "single_exec_tool_without_priv_desc": {
+    "mcpServers": {
+      "mcp4db": {
+        "command": "python",
+        "args": [
+          "../servers/bridgescope/server.py",
+          "--disable_fine_gran_tool",
+          "--disable_tool_priv",
+          "--dsn",
+          "<<db_dsn>>"
+        ]
+      }
+    }
+  },
+  "nlp2vis": {
+    "mcpServers": {
+      "mcp4db": {
+        "command": "python",
+        "args": [
+          "../servers/bridgescope/server.py",
+          "--dsn",
+          "<<db_dsn>>"
+        ]
+      },
+      "proxy": {
+        "command": "python",
+        "args": [
+          "../servers/ProxyServer/server.py"
+        ]
+      },
+      "draw": {
+        "command": "python",
+        "args": [
+          "../servers/DrawServer/server.py"
+        ]
+      }
+    }
+  },
+  "model_train_proxy": {
+    "mcpServers": {
+      "mcp4db": {
+        "command": "python",
+        "args": [
+          "../servers/bridgescope/server.py",
+          "--dsn",
+          "<<db_dsn>>"
+        ]
+      },
+      "proxy": {
+        "command": "python",
+        "args": [
+          "../servers/ProxyServer/mpe/server.py"
+        ]
+      },
+      "model": {
+        "command": "python",
+        "args": [
+          "../servers/ModelServer/server.py"
+        ]
+      },
+      "dataProcess": {
+        "command": "python",
+        "args": [
+          "../servers/DataProcess/server.py"
+        ]
+      }
+    }
+  },
+  "model_train": {
+    "mcpServers": {
+      "mcp4db": {
+        "command": "python",
+        "args": [
+          "../servers/bridgescope/server.py",
+          "--dsn",
+          "<<db_dsn>>"
+        ]
+      },
+      "model": {
+        "command": "python",
+        "args": [
+          "../servers/ModelServer/server.py"
+        ]
+      },
+      "dataProcess": {
+        "command": "python",
+        "args": [
+          "../servers/DataProcess/server.py"
+        ]
+      }
+    }
+  }
+}

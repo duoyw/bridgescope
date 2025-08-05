@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-proxy-exec = mpe.server:main

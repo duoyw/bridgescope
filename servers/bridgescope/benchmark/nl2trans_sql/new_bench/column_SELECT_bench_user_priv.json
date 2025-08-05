@@ -1,0 +1,26 @@
+{
+    "30": {
+        "has_col_priv_user": "col_user_0",
+        "has_other_col_priv_user": "col_user_1"
+    },
+    "80": {
+        "has_col_priv_user": "col_user_2",
+        "has_other_col_priv_user": "col_user_3"
+    },
+    "50": {
+        "has_col_priv_user": "col_user_4",
+        "has_other_col_priv_user": "col_user_5"
+    },
+    "54": {
+        "has_col_priv_user": "col_user_6",
+        "has_other_col_priv_user": "col_user_7"
+    },
+    "60": {
+        "has_col_priv_user": "col_user_8",
+        "has_other_col_priv_user": "col_user_9"
+    },
+    "7": {
+        "has_col_priv_user": "col_user_10",
+        "has_other_col_priv_user": "col_user_5"
+    }
+}

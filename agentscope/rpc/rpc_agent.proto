@@ -1,0 +1,93 @@
+syntax = "proto3";
+
+import "google/protobuf/empty.proto";
+
+// TODO: rename to RpcServicer
+// Servicer for rpc agent server
+service RpcAgent {
+    // check server is alive
+    rpc is_alive (google.protobuf.Empty) returns (GeneralResponse) {}
+
+    // stop the server
+    rpc stop (google.protobuf.Empty) returns (GeneralResponse) {}
+
+    // TODO: rename to create_object
+    // create a new object on the server
+    rpc create_agent (CreateAgentRequest) returns (GeneralResponse) {}
+
+    // TODO: rename to delete_object
+    // delete agent from the server
+    rpc delete_agent (StringMsg) returns (GeneralResponse) {}
+
+    // clear all agent on the server
+    rpc delete_all_agents (google.protobuf.Empty) returns (GeneralResponse) {}
+
+    // TODO: remove this function
+    // clone an agent with specific agent_id
+    rpc clone_agent (StringMsg) returns (GeneralResponse) {}
+
+    // get id of all agents on the server as a list
+    rpc get_agent_list (google.protobuf.Empty) returns (GeneralResponse) {}
+
+    // get the resource utilization information of the server
+    rpc get_server_info(google.protobuf.Empty) returns (GeneralResponse) {}
+
+    // update the model configs in the server
+    rpc set_model_configs(StringMsg) returns (GeneralResponse) {}
+
+    // get memory of a specific agent
+    rpc get_agent_memory (StringMsg) returns (GeneralResponse) {}
+
+    // TODO: rename to call_object_func
+    // call funcs of agent running on the server
+    rpc call_agent_func(CallFuncRequest) returns (CallFuncResponse) {}
+
+    // TODO: rename to update_async_result
+    // update value of PlaceholderMessage
+    rpc update_placeholder(UpdatePlaceholderRequest) returns (CallFuncResponse) {}
+
+    // file transfer
+    rpc download_file(StringMsg) returns (stream ByteMsg) {}
+}
+
+// Message classes for agent server management
+message GeneralResponse {
+    bool ok = 1;
+    string message = 2;
+}
+
+message CreateAgentRequest {
+    string agent_id = 1;
+    bytes agent_init_args = 2;
+    bytes agent_source_code = 3; // TODO: remove this field
+}
+
+message AgentStatus {
+    string agent_id = 1;
+    string status = 2;
+}
+
+message UpdatePlaceholderRequest {
+    int64 task_id = 1;
+}
+
+message StringMsg {
+    string value = 1;
+}
+
+message ByteMsg {
+    bytes data = 1;
+}
+
+// Message class for agent function call
+message CallFuncRequest {
+    string target_func = 1;
+    bytes value = 2;
+    string agent_id = 3;
+}
+
+message CallFuncResponse {
+    bool ok = 1;
+    bytes value = 2;
+    string message = 3;
+}

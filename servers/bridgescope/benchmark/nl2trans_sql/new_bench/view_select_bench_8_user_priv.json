@@ -1,0 +1,50 @@
+{
+    "1": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_1",
+        "other_table_only_user": "user_2"
+    },
+    "2": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_1",
+        "other_table_only_user": "user_2"
+    },
+    "3": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_3",
+        "other_table_only_user": "user_2"
+    },
+    "4": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_4",
+        "other_table_only_user": "user_2"
+    },
+    "5": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_4",
+        "other_table_only_user": "user_2"
+    },
+    "6": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_5",
+        "other_table_only_user": "user_2"
+    },
+    "7": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_6",
+        "other_table_only_user": "user_2"
+    },
+    "8": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_7",
+        "other_table_only_user": "user_2"
+    }
+}
