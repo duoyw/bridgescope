@@ -1,0 +1,3 @@
+{
+"TABLE":{"frpm":{"COLUMN":["cdscode"]}, "schools":{"COLUMN":["cdscode"]}}
+}

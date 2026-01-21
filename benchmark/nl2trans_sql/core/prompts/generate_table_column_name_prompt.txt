@@ -1,0 +1,27 @@
+Task: Given a SQL query and its result, name the result table and generate a description of column names and types.
+
+** Rule **
+1. Use plain text for table and column names, following PostgreSQL naming conventions: only letters, digits, and underscores; no numbers at the beginning; avoid reserved keywords.
+2. Ensure all column types are valid PostgreSQL types.
+
+** Response Format **
+<Table> table_name </Table>
+<Column> column_name1, column_type </Column>
+<Column> column_name2, column_type </Column>
+...
+
+** Example Input **
+
+SQL: SELECT employee_id, employee_name, age FROM employees WHERE age > 30;
+
+Natural language description: Retrieve the ID, name, and age of all employees who are older than 30 years.
+
+Example result: [(101, 'Alice', 32), (102, 'Bob', 45)]
+
+
+** Example Output **
+
+<Table> FilteredEmployees </Table>,
+<Column> employee_id, INTEGER </Column>,
+<Column> employee_name, VARCHAR </Column>,
+<Column> age, INTEGER </Column>

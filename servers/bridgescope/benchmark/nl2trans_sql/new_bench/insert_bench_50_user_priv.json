@@ -1,0 +1,2152 @@
+{
+    "98": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "AccountsLowestLoan1997"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "AccountsLowestLoan1997"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "AccountsLowestLoan1997"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_20",
+        "other_table_only_user": "user_6"
+    },
+    "1373": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "MarylandMembersCount"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "MarylandMembersCount"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "MarylandMembersCount"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_18",
+        "other_table_only_user": "user_6"
+    },
+    "597": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "IndiaTeacherBadgeUsers"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "IndiaTeacherBadgeUsers"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "IndiaTeacherBadgeUsers"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_14",
+        "other_table_only_user": "user_7"
+    },
+    "45": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "SchoolAverageWritingScores"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "SchoolAverageWritingScores"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "SchoolAverageWritingScores"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_6",
+        "other_table_only_user": "user_2"
+    },
+    "444": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "BorosWatermarkCards"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "BorosWatermarkCards"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "BorosWatermarkCards"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_8",
+        "other_table_only_user": "user_3"
+    },
+    "288": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "MoleculeCarcinogenicFlag"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "MoleculeCarcinogenicFlag"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "MoleculeCarcinogenicFlag"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_8",
+        "other_table_only_user": "user_5"
+    },
+    "321": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "MoleculeBondDetails"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "MoleculeBondDetails"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "MoleculeBondDetails"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_5",
+        "other_table_only_user": "user_8"
+    },
+    "580": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "NecromancerUsers"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "NecromancerUsers"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "NecromancerUsers"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_14",
+        "other_table_only_user": "user_7"
+    },
+    "524": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "ArenaBlackBorderArtists"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "ArenaBlackBorderArtists"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "ArenaBlackBorderArtists"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_1",
+        "other_table_only_user": "user_4"
+    },
+    "111": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "AccountsOpenedIn1996"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "AccountsOpenedIn1996"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "AccountsOpenedIn1996"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_10",
+        "other_table_only_user": "user_6"
+    },
+    "207": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "ElementsInDoubleBond"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "ElementsInDoubleBond"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "ElementsInDoubleBond"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_11",
+        "other_table_only_user": "user_6"
+    },
+    "1519": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "ProductIDTransactions"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "ProductIDTransactions"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "ProductIDTransactions"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_5",
+        "other_table_only_user": "user_12"
+    },
+    "132": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "AverageMaleBorrowerLoanAmount"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "AverageMaleBorrowerLoanAmount"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "AverageMaleBorrowerLoanAmount"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_21",
+        "other_table_only_user": "user_3"
+    },
+    "808": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "SuperheroRace"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "SuperheroRace"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "SuperheroRace"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_8",
+        "other_table_only_user": "user_5"
+    },
+    "628": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "TopViewedUsers"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "TopViewedUsers"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "TopViewedUsers"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_1",
+        "other_table_only_user": "user_5"
+    },
+    "86": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "SchoolAdministratorInfo"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "SchoolAdministratorInfo"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "SchoolAdministratorInfo"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_1",
+        "other_table_only_user": "user_5"
+    },
+    "263": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "ChlorineComposition"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "ChlorineComposition"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "ChlorineComposition"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_12",
+        "other_table_only_user": "user_9"
+    },
+    "718": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "SuperStrengthHeroesCount"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "SuperStrengthHeroesCount"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "SuperStrengthHeroesCount"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_9",
+        "other_table_only_user": "user_5"
+    },
+    "383": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "BannedWhiteBorderCardsCount"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "BannedWhiteBorderCardsCount"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "BannedWhiteBorderCardsCount"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_5",
+        "other_table_only_user": "user_14"
+    },
+    "1303": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "OldestPatientAbnormalGlucose"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "OldestPatientAbnormalGlucose"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "OldestPatientAbnormalGlucose"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_5",
+        "other_table_only_user": "user_2"
+    },
+    "1471": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "CurrencyRatio"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "CurrencyRatio"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "CurrencyRatio"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_4",
+        "other_table_only_user": "user_11"
+    },
+    "649": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "PostHistoryDetails"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "PostHistoryDetails"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "PostHistoryDetails"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_15",
+        "other_table_only_user": "user_5"
+    },
+    "1246": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "AbnormalAPTTNoThrombosisCount"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "AbnormalAPTTNoThrombosisCount"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "AbnormalAPTTNoThrombosisCount"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_7",
+        "other_table_only_user": "user_2"
+    },
+    "215": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "ElementCountsInSingleBonds"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "ElementCountsInSingleBonds"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "ElementCountsInSingleBonds"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_11",
+        "other_table_only_user": "user_6"
+    },
+    "526": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "WilsonPaperCardsCount"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "WilsonPaperCardsCount"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "WilsonPaperCardsCount"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_1",
+        "other_table_only_user": "user_4"
+    },
+    "1527": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "TopRevenueGasStation"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "TopRevenueGasStation"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "TopRevenueGasStation"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_8",
+        "other_table_only_user": "user_9"
+    },
+    "705": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "UserReputationUpVotes"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "UserReputationUpVotes"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "UserReputationUpVotes"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_16",
+        "other_table_only_user": "user_3"
+    },
+    "415": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "CommanderLegalCardsPercentage"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "CommanderLegalCardsPercentage"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "CommanderLegalCardsPercentage"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_5",
+        "other_table_only_user": "user_14"
+    },
+    "1256": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "AbnormalCRPNoDescriptionCount"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "AbnormalCRPNoDescriptionCount"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "AbnormalCRPNoDescriptionCount"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_5",
+        "other_table_only_user": "user_2"
+    },
+    "1496": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "LowestConsumingSegment"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "LowestConsumingSegment"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "LowestConsumingSegment"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_7",
+        "other_table_only_user": "user_11"
+    },
+    "673": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "AveragePostsByOldestUsers"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "AveragePostsByOldestUsers"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "AveragePostsByOldestUsers"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_17",
+        "other_table_only_user": "user_5"
+    },
+    "376": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "CardLayouts"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "CardLayouts"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "CardLayouts"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_1",
+        "other_table_only_user": "user_4"
+    },
+    "1514": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "PaymentCurrency"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "PaymentCurrency"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "PaymentCurrency"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_13",
+        "other_table_only_user": "user_3"
+    },
+    "809": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "PublisherName"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "PublisherName"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "PublisherName"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_10",
+        "other_table_only_user": "user_5"
+    },
+    "1438": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "KatyCollegeInfo"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "KatyCollegeInfo"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "KatyCollegeInfo"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_13",
+        "other_table_only_user": "user_6"
+    },
+    "359": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "CardTypes"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "CardTypes"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "CardTypes"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_1",
+        "other_table_only_user": "user_4"
+    },
+    "182": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "MaleCustomerPayments"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "MaleCustomerPayments"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "MaleCustomerPayments"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_22",
+        "other_table_only_user": "user_3"
+    },
+    "133": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "HighestUnemploymentDistrict1996"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "HighestUnemploymentDistrict1996"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "HighestUnemploymentDistrict1996"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_5",
+        "other_table_only_user": "user_7"
+    },
+    "1254": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "PatientCount"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "PatientCount"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "PatientCount"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_5",
+        "other_table_only_user": "user_2"
+    },
+    "1453": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "EventsWithLowParkingCost"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "EventsWithLowParkingCost"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "EventsWithLowParkingCost"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_19",
+        "other_table_only_user": "user_3"
+    },
+    "1387": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "YearlyKickoffBudgetManagers"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "YearlyKickoffBudgetManagers"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "YearlyKickoffBudgetManagers"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_20",
+        "other_table_only_user": "user_3"
+    },
+    "737": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "SuperheroRace"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "SuperheroRace"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "SuperheroRace"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_8",
+        "other_table_only_user": "user_5"
+    },
+    "691": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "AdultUsersUpVotes"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "AdultUsersUpVotes"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "AdultUsersUpVotes"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_1",
+        "other_table_only_user": "user_5"
+    },
+    "639": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "CommunityPostsRPercentage"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "CommunityPostsRPercentage"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "CommunityPostsRPercentage"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_18",
+        "other_table_only_user": "user_5"
+    },
+    "669": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "ChlFirstVoteDate"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "ChlFirstVoteDate"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "ChlFirstVoteDate"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_17",
+        "other_table_only_user": "user_5"
+    },
+    "1313": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "EngineeringStudentsCount"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "EngineeringStudentsCount"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "EngineeringStudentsCount"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_13",
+        "other_table_only_user": "user_6"
+    },
+    "434": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "JapaneseOnlySetsCount"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "JapaneseOnlySetsCount"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "JapaneseOnlySetsCount"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_7",
+        "other_table_only_user": "user_8"
+    },
+    "715": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "FilteredUserComments"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "FilteredUserComments"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "FilteredUserComments"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_16",
+        "other_table_only_user": "user_3"
+    },
+    "290": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "ToxicElementsInTR151"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "ToxicElementsInTR151"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "ToxicElementsInTR151"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_1",
+        "other_table_only_user": "user_5"
+    },
+    "1407": {
+        "full_priv_user": [
+            "superuser",
+            [
+                [
+                    "TopAdvertisementBudgets"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "read_only_user": [
+            "readonly_user",
+            [
+                [
+                    "TopAdvertisementBudgets"
+                ],
+                [
+                    "SELECT"
+                ]
+            ]
+        ],
+        "operate_table_only_user": [
+            "tmp_user",
+            [
+                [
+                    "TopAdvertisementBudgets"
+                ],
+                [
+                    "SELECT",
+                    "UPDATE",
+                    "INSERT",
+                    "DELETE"
+                ]
+            ]
+        ],
+        "reference_table_only_user": "user_7",
+        "other_table_only_user": "user_10"
+    }
+}

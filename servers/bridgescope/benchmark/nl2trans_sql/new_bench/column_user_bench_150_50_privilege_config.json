@@ -1,0 +1,171 @@
+{
+    "california_schools": {
+        "col_user_0": [
+            [
+                "frpm"
+            ],
+            [
+                "schools.CDSCode",
+                "schools.City"
+            ]
+        ],
+        "col_user_1": [
+            [
+                "frpm"
+            ],
+            [
+                "schools.City",
+                "schools.ncesdist",
+                "schools.ncesschool"
+            ]
+        ],
+        "col_user_2": [
+            [
+                "frpm"
+            ],
+            [
+                "schools.CDSCode",
+                "schools.Latitude"
+            ]
+        ],
+        "col_user_3": [
+            [
+                "frpm"
+            ],
+            [
+                "schools.Latitude",
+                "schools.ncesdist",
+                "schools.ncesschool"
+            ]
+        ],
+        "col_user_4": [
+            [
+                "schools"
+            ],
+            [
+                "satscores.AvgScrMath",
+                "satscores.cds"
+            ]
+        ],
+        "col_user_5": [
+            [
+                "schools"
+            ],
+            [
+                "satscores.cds",
+                "satscores.rtype",
+                "satscores.sname"
+            ]
+        ],
+        "col_user_6": [
+            [],
+            [
+                "schools.AdmFName1",
+                "schools.School",
+                "schools.MailZip",
+                "schools.AdmLName1"
+            ]
+        ],
+        "col_user_7": [
+            [],
+            [
+                "schools.School",
+                "schools.MailZip",
+                "schools.AdmLName1",
+                "schools.cdscode",
+                "schools.ncesdist"
+            ]
+        ],
+        "col_user_8": [
+            [],
+            [
+                "schools.Charter",
+                "schools.Website",
+                "schools.Virtual",
+                "schools.County"
+            ]
+        ],
+        "col_user_9": [
+            [],
+            [
+                "schools.Website",
+                "schools.Virtual",
+                "schools.County",
+                "schools.cdscode",
+                "schools.ncesdist"
+            ]
+        ],
+        "col_user_10": [
+            [
+                "schools"
+            ],
+            [
+                "satscores.NumGE1500",
+                "satscores.cds"
+            ]
+        ],
+        "col_user_11": [
+            [
+                "frpm",
+                "satscores",
+                "schools"
+            ],
+            [
+                "frpm.School Name"
+            ]
+        ],
+        "col_user_12": [
+            [
+                "frpm",
+                "satscores",
+                "schools"
+            ],
+            [
+                "frpm.cdscode",
+                "frpm.Academic Year"
+            ]
+        ],
+        "col_user_13": [
+            [
+                "frpm",
+                "satscores",
+                "schools"
+            ],
+            [
+                "schools.AdmFName1"
+            ]
+        ],
+        "col_user_14": [
+            [
+                "frpm",
+                "satscores",
+                "schools"
+            ],
+            [
+                "schools.cdscode",
+                "schools.ncesdist"
+            ]
+        ],
+        "col_user_15": [
+            [
+                "frpm",
+                "satscores",
+                "schools"
+            ],
+            [
+                "satscores.NumTstTakr"
+            ]
+        ],
+        "col_user_16": [
+            [
+                "frpm",
+                "satscores",
+                "schools"
+            ],
+            [
+                "satscores.cds",
+                "satscores.rtype"
+            ]
+        ]
+    }
+}

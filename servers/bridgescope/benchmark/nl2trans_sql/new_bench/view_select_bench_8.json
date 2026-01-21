@@ -1,0 +1,90 @@
+[
+    {
+        "db_id": "california_schools_ext",
+        "question_id": 1,
+        "purpose": "\u5217\u51fa SAT \u5e73\u5747\u603b\u5206\u6700\u9ad8\u7684 Top 10 \u5b66\u6821",
+        "scenario": "\u5b66\u672f excellence \u6392\u540d\u3001\u5a92\u4f53\u53d1\u5e03\u3001\u5b66\u6821\u5bf9\u6807",
+        "pg_sql": "SELECT\nschool_name,\ndistrict_name,\ncounty_name,\navg_total_sat_score,\nexcellence_rate,\nnum_test_takers\nFROM school_performance_summary\nORDER BY avg_total_sat_score DESC\nLIMIT 10;",
+        "comments": [
+            "\u7528\u9014\uff1a\u5217\u51fa SAT \u5e73\u5747\u603b\u5206\u6700\u9ad8\u7684 Top 10 \u5b66\u6821",
+            "\u573a\u666f\uff1a\u5b66\u672f excellence \u6392\u540d\u3001\u5a92\u4f53\u53d1\u5e03\u3001\u5b66\u6821\u5bf9\u6807"
+        ]
+    },
+    {
+        "db_id": "california_schools_ext",
+        "question_id": 2,
+        "purpose": "\u5217\u51fa\u5353\u8d8a\u7387\uff08SAT \u22651500 \u6bd4\u4f8b\uff09\u6700\u9ad8\u7684 Top 10 \u5b66\u6821",
+        "scenario": "\u8bc6\u522b\u9876\u5c16\u4eba\u624d\u57f9\u517b\u80fd\u529b\u5f3a\u7684\u5b66\u6821\uff0c\u7528\u4e8e\u8868\u5f70\u6216\u7814\u7a76",
+        "pg_sql": "SELECT\nschool_name,\ndistrict_name,\ncounty_name,\nexcellence_rate,\navg_total_sat_score,\nnum_test_takers\nFROM school_performance_summary\nWHERE num_test_takers >= 50  -- \u8fc7\u6ee4\u5c0f\u6837\u672c\u5b66\u6821\nORDER BY excellence_rate DESC\nLIMIT 10;",
+        "comments": [
+            "\u7528\u9014\uff1a\u5217\u51fa\u5353\u8d8a\u7387\uff08SAT \u22651500 \u6bd4\u4f8b\uff09\u6700\u9ad8\u7684 Top 10 \u5b66\u6821",
+            "\u573a\u666f\uff1a\u8bc6\u522b\u9876\u5c16\u4eba\u624d\u57f9\u517b\u80fd\u529b\u5f3a\u7684\u5b66\u6821\uff0c\u7528\u4e8e\u8868\u5f70\u6216\u7814\u7a76"
+        ]
+    },
+    {
+        "db_id": "california_schools_ext",
+        "question_id": 3,
+        "purpose": "\u67e5\u8be2\u6d1b\u6749\u77f6\u53bf\uff08Los Angeles\uff09\u6240\u6709\u5b66\u6821\u7684\u5b66\u4e1a\u8868\u73b0",
+        "scenario": "\u533a\u57df\u6559\u80b2\u5206\u6790\u3001\u5730\u65b9\u6559\u80b2\u5c40\u76d1\u63a7",
+        "pg_sql": "SELECT\nschool_name,\navg_total_sat_score,\nexcellence_rate,\npct_eligible_frpm AS low_income_rate\nFROM school_full_profile\nWHERE county_name = 'Los Angeles'\nORDER BY excellence_rate DESC\nLIMIT 5;",
+        "comments": [
+            "\u7528\u9014\uff1a\u67e5\u8be2\u6d1b\u6749\u77f6\u53bf\uff08Los Angeles\uff09\u6240\u6709\u5b66\u6821\u7684\u5b66\u4e1a\u8868\u73b0",
+            "\u573a\u666f\uff1a\u533a\u57df\u6559\u80b2\u5206\u6790\u3001\u5730\u65b9\u6559\u80b2\u5c40\u76d1\u63a7"
+        ]
+    },
+    {
+        "db_id": "california_schools_ext",
+        "question_id": 4,
+        "purpose": "\u53d1\u73b0\u201c\u4f4e\u6536\u5165\u6bd4\u4f8b\u9ad8\u4f46\u6210\u7ee9\u4f18\u5f02\u201d\u7684\u9006\u88ad\u5b66\u6821\uff08\u6559\u80b2\u516c\u5e73\u5178\u8303\uff09",
+        "scenario": "\u5bfb\u627e\u6210\u529f\u6848\u4f8b\u3001\u63a8\u5e7f\u5148\u8fdb\u7ecf\u9a8c\u3001\u653f\u7b56\u8bd5\u70b9\u53c2\u8003",
+        "pg_sql": "SELECT\nsp.school_name,\nsp.district_name,\nsp.county_name,\nsp.avg_total_sat_score,\nsp.excellence_rate,\neco.pct_eligible_frpm AS low_income_rate,\nsp.num_test_takers\nFROM school_performance_summary sp\nJOIN school_socioeconomic_profile eco ON sp.cds = eco.cds\nWHERE\neco.pct_eligible_frpm > 0.7                    -- \u4f4e\u6536\u5165\u5b66\u751f\u5360\u6bd4 >70%\nAND sp.avg_total_sat_score > (SELECT AVG(avg_total_sat_score) FROM school_performance_summary)  -- \u9ad8\u4e8e\u5168\u5dde\u5e73\u5747\nAND sp.num_test_takers >= 30                   -- \u4fdd\u8bc1\u6837\u672c\u91cf\nORDER BY sp.excellence_rate DESC\nLIMIT 5;",
+        "comments": [
+            "\u7528\u9014\uff1a\u53d1\u73b0\u201c\u4f4e\u6536\u5165\u6bd4\u4f8b\u9ad8\u4f46\u6210\u7ee9\u4f18\u5f02\u201d\u7684\u9006\u88ad\u5b66\u6821\uff08\u6559\u80b2\u516c\u5e73\u5178\u8303\uff09",
+            "\u573a\u666f\uff1a\u5bfb\u627e\u6210\u529f\u6848\u4f8b\u3001\u63a8\u5e7f\u5148\u8fdb\u7ecf\u9a8c\u3001\u653f\u7b56\u8bd5\u70b9\u53c2\u8003"
+        ]
+    },
+    {
+        "db_id": "california_schools_ext",
+        "question_id": 5,
+        "purpose": "\u6bd4\u8f83\u7279\u8bb8\u5b66\u6821\uff08Charter\uff09\u4e0e\u666e\u901a\u5b66\u6821\u7684\u8868\u73b0\u5dee\u5f02",
+        "scenario": "\u529e\u5b66\u6a21\u5f0f\u7814\u7a76\u3001\u653f\u7b56\u6548\u679c\u8bc4\u4f30",
+        "pg_sql": "SELECT\nCASE WHEN eco.charter_school = 1 THEN 'Charter' ELSE 'Traditional' END AS school_type,\nAVG(sp.avg_total_sat_score) AS avg_sat_score,\nAVG(sp.excellence_rate) AS avg_excellence_rate,\nAVG(eco.pct_eligible_frpm) AS avg_low_income_rate\nFROM school_performance_summary sp\nJOIN school_socioeconomic_profile eco ON sp.cds = eco.cds\nGROUP BY eco.charter_school\nORDER BY avg_excellence_rate DESC\nLIMIT 5;",
+        "comments": [
+            "\u7528\u9014\uff1a\u6bd4\u8f83\u7279\u8bb8\u5b66\u6821\uff08Charter\uff09\u4e0e\u666e\u901a\u5b66\u6821\u7684\u8868\u73b0\u5dee\u5f02",
+            "\u573a\u666f\uff1a\u529e\u5b66\u6a21\u5f0f\u7814\u7a76\u3001\u653f\u7b56\u6548\u679c\u8bc4\u4f30"
+        ]
+    },
+    {
+        "db_id": "california_schools_ext",
+        "question_id": 6,
+        "purpose": "\u5206\u6790\u78c1\u6821\uff08Magnet Schools\uff09\u662f\u5426\u5728\u6210\u7ee9\u4e0a\u5177\u6709\u4f18\u52bf",
+        "scenario": "\u7279\u8272\u5b66\u6821\u9879\u76ee\u8bc4\u4f30\u3001\u62db\u751f\u7b56\u7565\u5236\u5b9a",
+        "pg_sql": "SELECT\nsm.is_magnet,\nAVG(sp.avg_total_sat_score) AS avg_sat_score,\nAVG(sp.excellence_rate) AS avg_excellence_rate\nFROM school_metadata sm\nLEFT JOIN school_performance_summary sp ON sm.cds = sp.cds\nWHERE sm.is_magnet IS NOT NULL\nGROUP BY sm.is_magnet\nLIMIT 5;",
+        "comments": [
+            "\u7528\u9014\uff1a\u5206\u6790\u78c1\u6821\uff08Magnet Schools\uff09\u662f\u5426\u5728\u6210\u7ee9\u4e0a\u5177\u6709\u4f18\u52bf",
+            "\u573a\u666f\uff1a\u7279\u8272\u5b66\u6821\u9879\u76ee\u8bc4\u4f30\u3001\u62db\u751f\u7b56\u7565\u5236\u5b9a"
+        ]
+    },
+    {
+        "db_id": "california_schools_ext",
+        "question_id": 7,
+        "purpose": "\u67e5\u627e\u7f3a\u5c11\u5b98\u7f51\u6216\u8054\u7cfb\u7535\u8bdd\u7684\u5b66\u6821\uff08\u6570\u636e\u5b8c\u6574\u6027\u68c0\u67e5\uff09",
+        "scenario": "\u6570\u636e\u6e05\u6d17\u3001\u4fe1\u606f\u8865\u5168\u4efb\u52a1\u3001\u7cfb\u7edf\u7ef4\u62a4",
+        "pg_sql": "SELECT\nschool_name,\ndistrict_name,\ncounty_name,\nphone,\nwebsite\nFROM school_metadata\nWHERE website IS NULL OR TRIM(website) = '' OR phone IS NULL\nLIMIT 5;",
+        "comments": [
+            "\u7528\u9014\uff1a\u67e5\u627e\u7f3a\u5c11\u5b98\u7f51\u6216\u8054\u7cfb\u7535\u8bdd\u7684\u5b66\u6821\uff08\u6570\u636e\u5b8c\u6574\u6027\u68c0\u67e5\uff09",
+            "\u573a\u666f\uff1a\u6570\u636e\u6e05\u6d17\u3001\u4fe1\u606f\u8865\u5168\u4efb\u52a1\u3001\u7cfb\u7edf\u7ef4\u62a4"
+        ]
+    },
+    {
+        "db_id": "california_schools_ext",
+        "question_id": 8,
+        "purpose": "\u83b7\u53d6\u53ef\u7528\u4e8e\u5730\u56fe\u53ef\u89c6\u5316\u7684\u5b66\u6821\u5730\u7406\u4e0e\u7ee9\u6548\u6570\u636e",
+        "scenario": "BI \u53ef\u89c6\u5316\uff08\u5982 Power BI/Tableau\uff09\u3001Python \u7ed8\u56fe\uff08folium/mapbox\uff09",
+        "pg_sql": "SELECT\nsm.school_name,\nsm.district_name,\nsm.county_name,\nsm.latitude,\nsm.longitude,\nsp.avg_total_sat_score,\nsp.excellence_rate,\neco.pct_eligible_frpm AS low_income_rate\nFROM school_metadata sm\nLEFT JOIN school_performance_summary sp ON sm.cds = sp.cds\nLEFT JOIN school_socioeconomic_profile eco ON sm.cds = eco.cds\nWHERE sm.latitude IS NOT NULL AND sm.longitude IS NOT NULL\nLIMIT 5;",
+        "comments": [
+            "\u7528\u9014\uff1a\u83b7\u53d6\u53ef\u7528\u4e8e\u5730\u56fe\u53ef\u89c6\u5316\u7684\u5b66\u6821\u5730\u7406\u4e0e\u7ee9\u6548\u6570\u636e",
+            "\u573a\u666f\uff1aBI \u53ef\u89c6\u5316\uff08\u5982 Power BI/Tableau\uff09\u3001Python \u7ed8\u56fe\uff08folium/mapbox\uff09"
+        ]
+    }
+]

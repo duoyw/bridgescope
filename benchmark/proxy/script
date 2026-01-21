@@ -1,0 +1,6 @@
+\copy housing FROM '/home/admin/yuchu.yc/mcp4db/server/benchmark/proxy/cleaned_housing.csv' DELIMITER ',' CSV HEADER
+\copy smallhousing FROM '/home/admin/yuchu.yc/mcp4db/server/benchmark/proxy/small_cleaned_housing.csv' DELIMITER ',' CSV HEADER
+
+
+CREATE DATABASE californiahousing;
+CREATE DATABASE smallcaliforniahousing;

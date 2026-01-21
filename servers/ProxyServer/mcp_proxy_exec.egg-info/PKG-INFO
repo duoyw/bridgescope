@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: mcp-proxy-exec
+Version: 0.1.7
+Summary: A MCP proxy-execute server for chaining tool calls. Passes output from one tool directly as input to another, especially when there are parameter dependencies.
+Author-email: Lianggui Weng <wenglianggui4553@163.com>, Dandan Liu <ldd461759@alibaba-inc.com>
+Keywords: mcp,server,transmission,data
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: mcp
+Requires-Dist: nest_asyncio
+Requires-Dist: loguru

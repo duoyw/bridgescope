@@ -1,0 +1,32 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp-proxy-exec"
+version = "0.1.7"
+description = "A MCP proxy-execute server for chaining tool calls. Passes output from one tool directly as input to another, especially when there are parameter dependencies."
+readme = "README.md"
+authors = [
+    { name = "Lianggui Weng", email = "wenglianggui4553@163.com" },
+    { name = "Dandan Liu", email = "ldd461759@alibaba-inc.com" },
+]
+requires-python = ">=3.12"
+keywords = ["mcp", "server", "transmission", "data"]
+
+
+dependencies = [
+    "mcp",
+    "nest_asyncio",
+    "loguru"
+]
+
+[project.scripts]
+mcp-proxy-exec = "mpe.server:main"
+
+
+
+
+

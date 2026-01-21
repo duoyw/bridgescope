@@ -1,0 +1,340 @@
+{
+    "307": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_1",
+        "reference_table_only_user": "user_9",
+        "other_table_only_user": "user_10"
+    },
+    "816": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_1",
+        "reference_table_only_user": "user_11",
+        "other_table_only_user": "user_5"
+    },
+    "24": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_2",
+        "reference_table_only_user": "user_3",
+        "other_table_only_user": "user_1"
+    },
+    "1463": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_1",
+        "reference_table_only_user": "user_7",
+        "other_table_only_user": "user_8"
+    },
+    "34": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_1",
+        "reference_table_only_user": "user_2",
+        "other_table_only_user": "user_3"
+    },
+    "1316": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_5",
+        "reference_table_only_user": "user_10",
+        "other_table_only_user": "user_2"
+    },
+    "53": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_3",
+        "reference_table_only_user": "user_1",
+        "other_table_only_user": "user_2"
+    },
+    "491": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_9",
+        "other_table_only_user": "user_8"
+    },
+    "1412": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_9",
+        "reference_table_only_user": "user_5",
+        "other_table_only_user": "user_6"
+    },
+    "376": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_1",
+        "other_table_only_user": "user_4"
+    },
+    "452": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_1",
+        "other_table_only_user": "user_4"
+    },
+    "277": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_1",
+        "reference_table_only_user": "user_9",
+        "other_table_only_user": "user_10"
+    },
+    "1417": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_1",
+        "reference_table_only_user": "user_7",
+        "other_table_only_user": "user_8"
+    },
+    "408": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_15",
+        "reference_table_only_user": "user_1",
+        "other_table_only_user": "user_4"
+    },
+    "441": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_6",
+        "reference_table_only_user": "user_9",
+        "other_table_only_user": "user_8"
+    },
+    "692": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_1",
+        "reference_table_only_user": "user_6",
+        "other_table_only_user": "user_7"
+    },
+    "752": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_1",
+        "reference_table_only_user": "user_6",
+        "other_table_only_user": "user_5"
+    },
+    "1433": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_12",
+        "other_table_only_user": "user_6"
+    },
+    "838": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_1",
+        "other_table_only_user": "user_5"
+    },
+    "427": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_6",
+        "reference_table_only_user": "user_9",
+        "other_table_only_user": "user_8"
+    },
+    "1350": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_7",
+        "reference_table_only_user": "user_9",
+        "other_table_only_user": "user_10"
+    },
+    "412": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_2",
+        "reference_table_only_user": "user_1",
+        "other_table_only_user": "user_3"
+    },
+    "757": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_6",
+        "reference_table_only_user": "user_1",
+        "other_table_only_user": "user_5"
+    },
+    "544": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_1",
+        "reference_table_only_user": "user_4",
+        "other_table_only_user": "user_5"
+    },
+    "837": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_11",
+        "other_table_only_user": "user_5"
+    },
+    "482": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_1",
+        "reference_table_only_user": "user_2",
+        "other_table_only_user": "user_3"
+    },
+    "453": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_1",
+        "other_table_only_user": "user_4"
+    },
+    "1506": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_6",
+        "reference_table_only_user": "user_5",
+        "other_table_only_user": "user_7"
+    },
+    "274": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_1",
+        "other_table_only_user": "user_5"
+    },
+    "316": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_1",
+        "reference_table_only_user": "user_6",
+        "other_table_only_user": "user_5"
+    },
+    "439": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_9",
+        "other_table_only_user": "user_8"
+    },
+    "568": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_1",
+        "reference_table_only_user": "user_19",
+        "other_table_only_user": "user_5"
+    },
+    "326": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_1",
+        "reference_table_only_user": "user_2",
+        "other_table_only_user": "user_3"
+    },
+    "606": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_6",
+        "other_table_only_user": "user_7"
+    },
+    "763": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_11",
+        "reference_table_only_user": "user_1",
+        "other_table_only_user": "user_5"
+    },
+    "1320": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_1",
+        "reference_table_only_user": "user_21",
+        "other_table_only_user": "user_2"
+    },
+    "358": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_1",
+        "other_table_only_user": "user_4"
+    },
+    "267": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_2",
+        "reference_table_only_user": "user_6",
+        "other_table_only_user": "user_4"
+    },
+    "1460": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_5",
+        "reference_table_only_user": "user_9",
+        "other_table_only_user": "user_6"
+    },
+    "1435": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_1",
+        "other_table_only_user": "user_6"
+    },
+    "722": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_4",
+        "reference_table_only_user": "user_1",
+        "other_table_only_user": "user_5"
+    },
+    "549": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_4",
+        "reference_table_only_user": "user_12",
+        "other_table_only_user": "user_5"
+    },
+    "447": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_6",
+        "reference_table_only_user": "user_9",
+        "other_table_only_user": "user_8"
+    },
+    "306": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_2",
+        "reference_table_only_user": "user_1",
+        "other_table_only_user": "user_3"
+    },
+    "1401": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_9",
+        "reference_table_only_user": "user_17",
+        "other_table_only_user": "user_3"
+    },
+    "806": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_4",
+        "reference_table_only_user": "user_1",
+        "other_table_only_user": "user_5"
+    },
+    "1329": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_12",
+        "reference_table_only_user": "user_5",
+        "other_table_only_user": "user_6"
+    },
+    "112": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_5",
+        "reference_table_only_user": "user_18",
+        "other_table_only_user": "user_7"
+    },
+    "519": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_6",
+        "reference_table_only_user": "user_9",
+        "other_table_only_user": "user_8"
+    },
+    "1353": {
+        "full_priv_user": "superuser",
+        "read_only_user": "readonly_user",
+        "operate_table_only_user": "user_12",
+        "reference_table_only_user": "user_5",
+        "other_table_only_user": "user_6"
+    }
+}

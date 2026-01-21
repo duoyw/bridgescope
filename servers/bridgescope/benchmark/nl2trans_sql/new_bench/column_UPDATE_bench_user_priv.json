@@ -1,0 +1,14 @@
+{
+    "24": {
+        "has_col_priv_user": "col_user_11",
+        "has_other_col_priv_user": "col_user_12"
+    },
+    "34": {
+        "has_col_priv_user": "col_user_13",
+        "has_other_col_priv_user": "col_user_14"
+    },
+    "53": {
+        "has_col_priv_user": "col_user_15",
+        "has_other_col_priv_user": "col_user_16"
+    }
+}

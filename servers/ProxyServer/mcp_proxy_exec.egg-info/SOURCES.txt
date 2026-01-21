@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+mcp_proxy_exec.egg-info/PKG-INFO
+mcp_proxy_exec.egg-info/SOURCES.txt
+mcp_proxy_exec.egg-info/dependency_links.txt
+mcp_proxy_exec.egg-info/entry_points.txt
+mcp_proxy_exec.egg-info/requires.txt
+mcp_proxy_exec.egg-info/top_level.txt
+mpe/__init__.py
+mpe/mcp_client.py
+mpe/server.py

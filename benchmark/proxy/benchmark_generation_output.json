@@ -1,0 +1,548 @@
+[
+  {
+    "task": "Using the features longitude, latitude, housing_median_age, total_rooms, total_bedrooms, and households to train a house price prediction model. The label used is median_house_value. The model chosen is decision tree.",
+    "category": 1,
+    "features": [
+      "longitude",
+      "latitude",
+      "housing_median_age",
+      "total_rooms",
+      "total_bedrooms",
+      "households"
+    ],
+    "label": "median_house_value",
+    "model": "decision_tree",
+    "input": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "task": "Select population, households, and median_income as features to predict median_house_value. A random forest model is trained using this data.",
+    "category": 1,
+    "features": [
+      "population",
+      "households",
+      "median_income"
+    ],
+    "label": "median_house_value",
+    "model": "random_forest",
+    "input": [
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "task": "Use longitude, housing_median_age, total_rooms, and population as features with median_house_value as label to train a linear regression model for predicting house prices.",
+    "category": 1,
+    "features": [
+      "longitude",
+      "housing_median_age",
+      "total_rooms",
+      "population"
+    ],
+    "label": "median_house_value",
+    "model": "linear_regression",
+    "input": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "task": "Train a svm model to predict median_house_value using latitude, total_bedrooms, population, and median_income as input features.",
+    "category": 1,
+    "features": [
+      "latitude",
+      "total_bedrooms",
+      "population",
+      "median_income"
+    ],
+    "label": "median_house_value",
+    "model": "svm",
+    "input": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "task": "Using longitude, latitude, and median_income as features, build a decision tree model to predict house prices (median_house_value).",
+    "category": 1,
+    "features": [
+      "longitude",
+      "latitude",
+      "median_income"
+    ],
+    "label": "median_house_value",
+    "model": "decision_tree",
+    "input": [
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "task": "Train a random forest model with housing_median_age, total_bedrooms, households, and median_income to estimate the value of median_house_value.",
+    "category": 1,
+    "features": [
+      "housing_median_age",
+      "total_bedrooms",
+      "households",
+      "median_income"
+    ],
+    "label": "median_house_value",
+    "model": "random_forest",
+    "input": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "task": "Use total_rooms, population, and households as input features to train a linear regression model that predicts median_house_value.",
+    "category": 1,
+    "features": [
+      "total_rooms",
+      "population",
+      "households"
+    ],
+    "label": "median_house_value",
+    "model": "linear_regression",
+    "input": [
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "task": "A model is trained using svm with latitude, housing_median_age, total_rooms, total_bedrooms, and household as features. The target label is median_house_value.",
+    "category": 1,
+    "features": [
+      "latitude",
+      "housing_median_age",
+      "total_rooms",
+      "total_bedrooms",
+      "households"
+    ],
+    "label": "median_house_value",
+    "model": "svm",
+    "input": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "task": "Train a decision tree model using housing_median_age, total_rooms, and population as features to predict median_house_value.",
+    "category": 1,
+    "features": [
+      "housing_median_age",
+      "total_rooms",
+      "population"
+    ],
+    "label": "median_house_value",
+    "model": "decision_tree",
+    "input": [
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "task": "Build a random forest regression model using longitude, latitude, median_income, and households as predictive features to estimate median_house_value.",
+    "category": 1,
+    "features": [
+      "longitude",
+      "latitude",
+      "median_income",
+      "households"
+    ],
+    "label": "median_house_value",
+    "model": "random_forest",
+    "input": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "task": "Select the features latitude, housing_median_age, total_rooms, total_bedrooms, and population from the dataset, and use median_house_value as the label. Apply Min-Max Scaling to the selected features, then use a linear regression model to train a predictive model for house values.",
+    "category": 2,
+    "features": [
+      "latitude",
+      "housing_median_age",
+      "total_rooms",
+      "total_bedrooms",
+      "population"
+    ],
+    "scaling": "min_max_scaling",
+    "label": "median_house_value",
+    "model": "linear_regression",
+    "input": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "task": "Use longitude, latitude, and median_income as features to predict median_house_value. Standardize the features using Z-Score Scaling and train a decision tree model based on the processed data.",
+    "category": 2,
+    "features": [
+      "longitude",
+      "latitude",
+      "median_income"
+    ],
+    "scaling": "z_score_scaling",
+    "label": "median_house_value",
+    "model": "decision_tree",
+    "input": [
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "task": "Extract total_rooms, total_bedrooms, population, and households as the input features. Normalize them using Min-Max Scaling and predict house prices using a Random Forest regression model.",
+    "category": 2,
+    "features": [
+      "total_rooms",
+      "total_bedrooms",
+      "population",
+      "households"
+    ],
+    "scaling": "min_max_scaling",
+    "label": "median_house_value",
+    "model": "random_forest",
+    "input": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "task": "Use housing_median_age, total_rooms, total_bedrooms, population, and household as feature columns, with median_house_value as the label. Apply Z-Score Scaling to standardize the features and use SVM for regression training.",
+    "category": 2,
+    "features": [
+      "housing_median_age",
+      "total_rooms",
+      "total_bedrooms",
+      "population",
+      "households"
+    ],
+    "scaling": "z_score_scaling",
+    "label": "median_house_value",
+    "model": "svm",
+    "input": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "task": "Retrieve features from latitude, longitude, and households columns to build a predictive model for median house values. Normalize these features using Min-Max Scaling. Train the model using a Decision Tree approach.",
+    "category": 2,
+    "features": [
+      "latitude",
+      "longitude",
+      "households"
+    ],
+    "scaling": "min_max_scaling",
+    "label": "median_house_value",
+    "model": "decision_tree",
+    "input": [
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "task": "Select total_rooms, total_bedrooms, and median_income as input features. Use the median_house_value as the label. Perform Z-Score Scaling on the features and train the model using linear regression.",
+    "category": 2,
+    "features": [
+      "total_rooms",
+      "total_bedrooms",
+      "median_income"
+    ],
+    "scaling": "z_score_scaling",
+    "label": "median_house_value",
+    "model": "linear_regression",
+    "input": [
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "task": "Utilize housing_median_age, population, and median_income as features to predict median_house_value. First standardize these features using Z-Score Scaling, then train a Random Forest regression model.",
+    "category": 2,
+    "features": [
+      "housing_median_age",
+      "population",
+      "median_income"
+    ],
+    "scaling": "z_score_scaling",
+    "label": "median_house_value",
+    "model": "random_forest",
+    "input": [
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "task": "Choose features longitude, total_rooms, total_bedrooms, and population to predict median house value. Normalize the features using Min-Max Scaling and train an SVM regression model.",
+    "category": 2,
+    "features": [
+      "longitude",
+      "total_rooms",
+      "total_bedrooms",
+      "population"
+    ],
+    "scaling": "min_max_scaling",
+    "label": "median_house_value",
+    "model": "svm",
+    "input": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "task": "From the housing data, use the features latitude, median_income, and households to train a Decision Tree model for predicting median_house_value. Standardize the input features using Z-Score Scaling.",
+    "category": 2,
+    "features": [
+      "latitude",
+      "median_income",
+      "households"
+    ],
+    "scaling": "z_score_scaling",
+    "label": "median_house_value",
+    "model": "decision_tree",
+    "input": [
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "task": "Use housing_median_age, total_rooms, population, and households as feature inputs to predict housing values. Normalize features using Min-Max Scaling and train using a linear regression model.",
+    "category": 2,
+    "features": [
+      "housing_median_age",
+      "total_rooms",
+      "population",
+      "households"
+    ],
+    "scaling": "min_max_scaling",
+    "label": "median_house_value",
+    "model": "linear_regression",
+    "input": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "task": "Select the columns housing_median_age, total_rooms, total_bedrooms, population, and households from the dataset to use as input features, with median_house_value as the label. Normalize these features by applying Z-Score Scaling. Use Support Vector Machine (SVM) to train a model for predicting house values. Once the model is trained, use it to predict the house value for the Z-Score normalized input: [1.2, -0.5, 0.3, -1.1, 2.0].",
+    "category": 3,
+    "features": [
+      "housing_median_age",
+      "total_rooms",
+      "total_bedrooms",
+      "population",
+      "households"
+    ],
+    "scaling": "z_score_scaling",
+    "label": "median_house_value",
+    "model": "svm",
+    "input": [
+      1.2,
+      -0.5,
+      0.3,
+      -1.1,
+      2.0
+    ]
+  },
+  {
+    "task": "Use total_rooms, total_bedrooms, and population as features for a housing value prediction task, with median_house_value as the target variable. Apply Min-Max Scaling to normalize the data. Train a decision tree regression model on the processed data. Predict the median house value using the trained model for the following normalized input values: [0.45, 0.37, 0.82].",
+    "category": 3,
+    "features": [
+      "total_rooms",
+      "total_bedrooms",
+      "population"
+    ],
+    "scaling": "min_max_scaling",
+    "label": "median_house_value",
+    "model": "decision_tree",
+    "input": [
+      0.45,
+      0.37,
+      0.82
+    ]
+  },
+  {
+    "task": "For this task, select longitude, latitude, and median_income as features to predict median_house_value. Use Z-Score Scaling for data normalization. Train a random forest regression model on the processed dataset. Then use the model to predict the house value given the standardized input: [-0.8, 1.5, 0.9].",
+    "category": 3,
+    "features": [
+      "longitude",
+      "latitude",
+      "median_income"
+    ],
+    "scaling": "z_score_scaling",
+    "label": "median_house_value",
+    "model": "random_forest",
+    "input": [
+      -0.8,
+      1.5,
+      0.9
+    ]
+  },
+  {
+    "task": "Extract features from latitude, housing_median_age, total_bedrooms, and households columns, and set median_house_value as the label. Use Min-Max Scaling to preprocess the data. Build a prediction model using linear regression. Predict the output using processed inputs: [0.33, 0.7, 0.4, 0.2].",
+    "category": 3,
+    "features": [
+      "latitude",
+      "housing_median_age",
+      "total_bedrooms",
+      "households"
+    ],
+    "scaling": "min_max_scaling",
+    "label": "median_house_value",
+    "model": "linear_regression",
+    "input": [
+      0.33,
+      0.7,
+      0.4,
+      0.2
+    ]
+  },
+  {
+    "task": "Build a model to predict housing prices using the features longitude, housing_median_age, population, and median_income. First, normalize the features using Z-Score Scaling. Then train a decision tree model. Use the trained model to predict median_house_value with standardized input: [-1.3, 0.2, 1.1, 0.5].",
+    "category": 3,
+    "features": [
+      "longitude",
+      "housing_median_age",
+      "population",
+      "median_income"
+    ],
+    "scaling": "z_score_scaling",
+    "label": "median_house_value",
+    "model": "decision_tree",
+    "input": [
+      -1.3,
+      0.2,
+      1.1,
+      0.5
+    ]
+  },
+  {
+    "task": "Use longitude, latitude, and total_rooms as the feature set to train a regression model with median_house_value as the output variable. Apply Min-Max Scaling to prepare the inputs. Train a random forest model to fit the data. Use this trained model to make predictions using the normalized values: [0.2, 0.6, 0.78].",
+    "category": 3,
+    "features": [
+      "longitude",
+      "latitude",
+      "total_rooms"
+    ],
+    "scaling": "min_max_scaling",
+    "label": "median_house_value",
+    "model": "random_forest",
+    "input": [
+      0.2,
+      0.6,
+      0.78
+    ]
+  },
+  {
+    "task": "Choose total_bedrooms, households, and median_income as the input features and median_house_value as the label. Normalize the data with Z-Score Scaling. Use linear regression for model training. Make predictions using the following processed inputs: [0.6, -0.25, 1.7].",
+    "category": 3,
+    "features": [
+      "total_bedrooms",
+      "households",
+      "median_income"
+    ],
+    "scaling": "z_score_scaling",
+    "label": "median_house_value",
+    "model": "linear_regression",
+    "input": [
+      0.6,
+      -0.25,
+      1.7
+    ]
+  },
+  {
+    "task": "Train a housing price model using the features latitude, total_rooms, total_bedrooms, and median_income, with median_house_value as the target. Normalize features using Min-Max Scaling. Choose Support Vector Machine (SVM) as the model. Use normalized input [0.51, 0.49, 0.27, 0.9] for prediction after training.",
+    "category": 3,
+    "features": [
+      "latitude",
+      "total_rooms",
+      "total_bedrooms",
+      "median_income"
+    ],
+    "scaling": "min_max_scaling",
+    "label": "median_house_value",
+    "model": "svm",
+    "input": [
+      0.51,
+      0.49,
+      0.27,
+      0.9
+    ]
+  },
+  {
+    "task": "Collect longitude, latitude, population, and households as input features and assign median_house_value as the label. Perform Z-Score Scaling for preprocessing. Use a decision tree model to train. Use the standardized input values [0.1, 0.1, -1.5, -0.6] to predict median_house_value.",
+    "category": 3,
+    "features": [
+      "longitude",
+      "latitude",
+      "population",
+      "households"
+    ],
+    "scaling": "z_score_scaling",
+    "label": "median_house_value",
+    "model": "decision_tree",
+    "input": [
+      0.1,
+      0.1,
+      -1.5,
+      -0.6
+    ]
+  },
+  {
+    "task": "Use housing_median_age, total_rooms, total_bedrooms, and median_income to predict median_house_value. Apply Min-Max Scaling to normalize the data. Build the model using a random forest regression. Make predictions using the following normalized values: [0.65, 0.35, 0.12, 0.98].",
+    "category": 3,
+    "features": [
+      "housing_median_age",
+      "total_rooms",
+      "total_bedrooms",
+      "median_income"
+    ],
+    "scaling": "min_max_scaling",
+    "label": "median_house_value",
+    "model": "random_forest",
+    "input": [
+      0.65,
+      0.35,
+      0.12,
+      0.98
+    ]
+  }
+]

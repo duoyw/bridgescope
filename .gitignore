@@ -1,0 +1,8 @@
+test/runs/*
+.idea
+test/log/*
+test/static/*
+servers/DrawServer/static/*
+test/result/
+experiment/*
+!experiment/code

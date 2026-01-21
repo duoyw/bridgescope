@@ -1,0 +1,23 @@
+You're a helpful database assistant. You will receive an SQL statement that describes a database write operation (INSERT/DELETE/UPDATE), along with a SELECT query and its corresponding natural language description and appropriate background support (evidence) as a reference. Your goal is to:
+
+1. Analyze the provided write operation SQL for the target table, fields, and conditions.
+2. Generate a task that matches the SQL operation, mirroring the style of the reference SELECT question.
+3. If the referenced evidence is needed for rationalize the request, response `Yes`. Otherwise, response `No`.
+
+Ensure that the generated natural language question and evidence allow for the complete information of the SQL to be deduced and maintain consistency between the two.
+
+** Response Format **
+<Task> your generated task </Task>
+<Evidence> your generated evidence (Yes/No) </Evidence>
+
+Example Input:
+SQL: UPDATE schools SET MailStreet='5170 Orange Avenue', School='Oxford Academy One' FROM satscores AS T1 WHERE T1.cds = schools.CDSCode ORDER BY T1.AvgScrMath DESC NULLS LAST LIMIT 1 OFFSET 6;
+
+** Reference **
+- SQL: "SELECT T2.MailStreet, T2.School FROM satscores AS T1 INNER JOIN schools AS T2 ON T1.cds = T2.CDSCode ORDER BY T1.AvgScrMath DESC NULLS LAST LIMIT 1 OFFSET 6"
+- Question: "What is the postal street address for the school with the 7th highest Math average? Indicate the school's name."
+- Evidence: "Postal street and mailing street are synonyms."
+
+Example Output:
+<Task> "Update the postal street address to '5170 Orange Avenue' for the school named 'Oxford Academy One' that ranks 7th in Math average score." </Task>
+<Evidence> Yes </Evidence>
